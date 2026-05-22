@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Amit Portfolio</title>
+
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+   <link rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- PARTICLES -->
+  <div id="particles-js"></div>
+
+  <!-- CURSOR GLOW -->
+  <div class="cursor-glow"></div>
+
+
+  <!-- NAVBAR -->
+
+  <header>
+
+    <nav class="navbar">
+
+      <div class="logo">A.</div>
+
+      <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+  <!-- HERO SECTION -->
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+
+      <h3>Hi, I'm Amit 👋</h3>
+
+      <h1>
+        I Can Save <br>
+        The <span>World 🌱</span>
+      </h1>
+
+      <p class="typing-text">
+        I'm a <span id="element"></span>
+      </p>
+
+      <p class="hero-description">
+        Building futuristic digital experiences,
+        creative websites, and modern UI designs
+        for a better tomorrow.
+      </p>
+
+      <div class="buttons">
+
+        <a href="#projects" class="btn-primary">
+          View Projects
+        </a>
+
+        <a href="assets/resume.pdf" download class="btn-secondary">
+          Download CV
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- HERO IMAGE -->
+
+    <div class="hero-image">
+
+      <img src="image/earth2.png" alt="Earth">
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT SECTION -->
+
+  <section class="about" id="about" data-aos="fade-up">
+
+    <div class="about-image">
+
+      <img src="image/profile.jpg" alt="Profile">
+
+    </div>
+
+
+    <div class="about-content">
+
+      <h2>About Me</h2>
+
+      <p>
+        I'm a passionate web developer and B.Sc Computer Science student
+        who loves building futuristic websites with modern UI,
+        animations, and creative designs.
+      </p>
+
+
+      <div class="about-cards">
+
+        <div class="card">
+          <h3>Name</h3>
+          <p>Amit</p>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <p>B.Sc Computer Science</p>
+        </div>
+
+        <div class="card">
+          <h3>Location</h3>
+          <p>West Bengal, India</p>
+        </div>
+
+        <div class="card">
+          <h3>Experience</h3>
+          <p>Frontend Developer</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+
+  <section class="skills" id="skills" data-aos="fade-up">
+
+    <h2 class="section-title">My Skills</h2>
+
+
+    <div class="skills-container">
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML">
+
+        <h3>HTML</h3>
+
+        <p>
+          Building clean and semantic website structures.
+        </p>
+
+      </div>
+
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+
+        <h3>CSS</h3>
+
+        <p>
+          Creating futuristic responsive UI designs.
+        </p>
+
+      </div>
+
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+
+        <h3>JavaScript</h3>
+
+        <p>
+          Adding dynamic and interactive functionality.
+        </p>
+
+      </div>
+
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C">
+
+        <h3>C Programming</h3>
+
+        <p>
+          Strong programming fundamentals and logic.
+        </p>
+
+      </div>
+
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Problem Solving">
+
+        <h3>Problem Solving</h3>
+
+        <p>
+          Creative thinking and analytical solutions.
+        </p>
+
+      </div>
+
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Communication">
+
+        <h3>Communication</h3>
+
+        <p>
+          Team collaboration and communication skills.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PROJECTS SECTION -->
+
+  <section class="projects" id="projects" data-aos="fade-up">
+
+    <h2 class="section-title">Projects</h2>
+
+
+    <div class="projects-container">
+
+      <div class="project-card">
+
+        <img src="image/project1.jpg" alt="Project 1">
+
+        <div class="project-content">
+
+          <h3>Greeting Website</h3>
+
+          <p>
+            Creative animated greeting website with glowing effects,
+            modern UI, and futuristic animations.
+          </p>
+
+          <a href="#" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <img src="image/project2.jpg" alt="Project 2">
+
+        <div class="project-content">
+
+          <h3>Weather App</h3>
+
+          <p>
+            Modern weather forecasting app using API and responsive design.
+          </p>
+
+          <a href="#" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-card">
+
+        <img src="image/project3.jpg" alt="Project 3">
+
+        <div class="project-content">
+
+          <h3>Portfolio Website</h3>
+
+          <p>
+            Futuristic portfolio website with neon effects and glassmorphism.
+          </p>
+
+          <a href="#" class="project-btn">View Project</a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT SECTION -->
+
+  <section class="contact" id="contact" data-aos="fade-up">
+
+    <h2 class="section-title">Contact Me</h2>
+
+
+    <div class="contact-container">
+
+      <div class="contact-info">
+
+        <h3>Let's Build The Future Together 🚀</h3>
+
+        <p>
+          Feel free to contact me for collaborations,
+          creative projects, or web development work.
+        </p>
+
+
+        <div class="social-links">
+
+          <a href="https://github.com/prodevamit" 
+          target="_blank">
+
+          <i class="fa-brands fa-github"></i>
+
+        </a>
+
+          <a href="#">
+
+          <i class="fa-brands fa-linkedin"></i>
+
+        </a>
+          <a href="https://www.instagram.com/_heyitsamit_07/" 
+          target="_blank">
+
+          <i class="fa-brands fa-instagram"></i>
+
+        </a>
+
+        </div>
+
+      </div>
+
+
+      <form 
+      action="https://formsubmit.co/senddmhere1@gmail.com"
+      method="POST"
+      class="contact-form">
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <h2>Amit Portfolio</h2>
+
+    <p>
+      Designing futuristic digital experiences for a better tomorrow 🌱
+    </p>
+
+    <span>
+      © 2026 All Rights Reserved
+    </span>
+
+  </footer>
+
+
+  <!-- PARTICLES JS -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- TYPED JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- MAIN JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
