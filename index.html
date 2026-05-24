@@ -363,20 +363,44 @@
       </div>
 
 
-      <form 
-      action="https://formsubmit.co/senddmhere1@gmail.com"
-      method="POST"
-      class="contact-form">
+      <form
+action="https://api.web3forms.com/submit"
+method="POST"
+class="contact-form">
 
-        <input type="hidden" name="_captcha" value="false">
+  <!-- ACCESS KEY -->
+  <input type="hidden"
+  name="access_key"
+  value="0543b0c0-411f-4e7e-ab01-8beed0455c7d">
 
-        <input type="email" placeholder="Your Email" required>
+  <!-- NAME -->
 
-        <textarea placeholder="Your Message"></textarea>
+  <input type="text"
+  name="name"
+  placeholder="Your Name"
+  required>
 
-        <button type="submit">Send Message</button>
+  <!-- EMAIL -->
 
-      </form>
+  <input type="email"
+  name="email"
+  placeholder="Your Email"
+  required>
+
+  <!-- MESSAGE -->
+
+  <textarea
+  name="message"
+  placeholder="Your Message"
+  required></textarea>
+
+  <!-- BUTTON -->
+
+  <button type="submit">
+    Send Message
+  </button>
+
+</form>
 
     </div>
 
