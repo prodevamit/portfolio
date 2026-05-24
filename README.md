@@ -109,7 +109,7 @@ Example:
 
 * GitHub: [GitHub](https://github.com/prodevamit)
 * Instagram: [Instagram](https://www.instagram.com/_heyitsamit_07/)
-* LinkedIn: Add your LinkedIn link here
+* LinkedIn: [LinkedIn]
 
 ---  
 
