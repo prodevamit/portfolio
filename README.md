@@ -65,13 +65,13 @@ portfolio/
 **⚡ Installation**
 
 Clone the repository:
-
+```
 git clone https://github.com/prodevamit/portfolio.git
-
+```
 Open the project folder:
-
+```
 cd portfolio
-
+```
 Run using Live Server in VS Code.
 
 ---
@@ -80,11 +80,7 @@ Run using Live Server in VS Code.
 
 https://prodevamit.github.io/portfolio
 
-Replace with your real GitHub Pages link.
-
 **📸 Screenshots**
-
-Add screenshots of your portfolio here.
 
 Example:
 * Hero Section
